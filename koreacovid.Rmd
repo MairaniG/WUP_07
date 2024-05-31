@@ -26,7 +26,10 @@ Some of the data was uncoded for sex - sex must be just male or female
 state of a patient must be died or alive - we   adjust that as well     
   
 # Your Question - Is dying independent of sex?
+$H_0$:
+There is no difference in the death rates between men and women in korea due to covid.  
 
+$H_A$:There is a difference in the death rates between men and women in korea due to covid.  
 
 
 
@@ -57,6 +60,14 @@ rowPerc(table1)
 colPerc(table1)
 ```
 The percentage that were male was 64%, almost twice as many as female deaths.It shows that men were impacted at a higher rate.
+
+##Inferential
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
 
 
