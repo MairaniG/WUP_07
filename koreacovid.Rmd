@@ -74,4 +74,4 @@ The p-value for the chi-squared test is 0.001, so we reject the null hypothesis.
 The fisher exact test shows that men are 2.3 times more likely to die of covid in  korea than women.
 
 ## Conclusions
-
+The null hypothesis was rejected because the sources show that there is a correlation between gender and death rates of Covid in Korea. They are related and dying is dependent on gender. One of these test was the fisher test which demonstrated that men are 2.3 times more likely to die than women.
