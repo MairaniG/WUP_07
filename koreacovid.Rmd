@@ -36,11 +36,9 @@ state of a patient must be died or alive - we   adjust that as well
 
 result is a categorical variable, sex is   categorical  result depends on sex, we use helper   file cat~cat  
 
+# results
+
 ## Graphical results - use ggplot commands to do this  
-
-
-
-  
 
 
 
