@@ -41,8 +41,12 @@ result is a categorical variable, sex is   categorical  result depends on sex, w
 ## Graphical results - use ggplot commands to do this  
 
 
+```{r}
+barchartGC(~result + Sex,data=kRdata)
+barchartGC(~result + Sex,data=kRdata, type="percent")
 
-
+```
+        This bar chart shows that more Korean men died than women because of Covid19.  
 
   
 ## Numerical results
