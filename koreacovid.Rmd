@@ -69,8 +69,9 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
+The p-value for the chi-squared test is 0.001, so we reject the null hypothesis.
 
-
+The fisher exact test shows that men are 2.3 times more likely to die of covid in  korea than women.
 
 ## Conclusions
 
