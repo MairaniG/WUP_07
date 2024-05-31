@@ -51,9 +51,12 @@ barchartGC(~result + Sex,data=kRdata, type="percent")
 
   
 ## Numerical results
-
-
-## Inferential results 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+The percentage that were male was 64%, almost twice as many as female deaths.It shows that men were impacted at a higher rate.
 
 
 
