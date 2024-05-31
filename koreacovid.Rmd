@@ -46,7 +46,8 @@ barchartGC(~result + Sex,data=kRdata)
 barchartGC(~result + Sex,data=kRdata, type="percent")
 
 ```
-        This bar chart shows that more Korean men died than women because of Covid19.  
+   
+   This bar chart shows that more Korean men died than women because of Covid19.     
 
   
 ## Numerical results
